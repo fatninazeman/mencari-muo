@@ -1,0 +1,102 @@
+{
+  "siteTitle": "Mencari Muo",
+  "tagline": "Explore Muar. Collect Experiences. Unlock Rewards.",
+  "passportPdfLink": "brochures/MUAR TRAIL PASSPORT.pdf",
+  "coverImg": "passport-pages/cover.png",
+  "trails": [
+    {
+      "id": "gastronomy",
+      "name": "1. Gastronomy Trail",
+      "badge": "Muar Culinary Explorer",
+      "required": ["kedaikopi"]
+    },
+    {
+      "id": "culture",
+      "name": "2. Culture Trail",
+      "badge": "Muar Heritage Specialist",
+      "required": ["masjidjamek"]
+    },
+    {
+      "id": "ecotourism",
+      "name": "3. Eco-Tourism Trail",
+      "badge": "Muar Nature Ambassador",
+      "required": ["lamanbakau"]
+    },
+    {
+      "id": "agrotourism",
+      "name": "4. Agrotourism Trail",
+      "badge": "Muar Agrotourism Master",
+      "required": ["nasuhaherbs"]
+    },
+    {
+      "id": "halfdaytrip",
+      "name": "5. Halfday Trip Trail",
+      "badge": "Muar Express Explorer",
+      "required": ["kedaikopi", "masjidjamek", "lamanbakau"]
+    }
+  ],
+  "brochures": [
+    { "area": "Mukim Bandar Muar", "type": "Brochure", "title": "Bandar Muar Tourism Brochure", "pdfLink": "https://drive.google.com/file/d/1dFUeHV14xc-uVYpo9-g3ZW_UEaVhqKXG/view?usp=sharing", "desc": "Bandar Maharani Heritage Trail guide, street murals &amp; classic coffee shops." },
+    { "area": "Mukim Bandar Muar", "type": "Guidebook", "title": "Bandar Muar Full Travel Guidebook", "pdfLink": "https://drive.google.com/file/d/YOUR_LINK_HERE/view", "desc": "Master guidebook covering heritage architecture, royal town history &amp; gastronomy." },
+    { "area": "Mukim Bukit Kepong", "type": "Brochure", "title": "Bukit Kepong Tourism Brochure", "pdfLink": "https://drive.google.com/file/d/YOUR_LINK_HERE/view", "desc": "Concise visitor guide to historical gallery, heritage trails &amp; eco-tourism in Bukit Kepong." },
+    { "area": "Mukim Bukit Kepong", "type": "Guidebook", "title": "Bukit Kepong Full Travel Guidebook", "pdfLink": "https://drive.google.com/file/d/12uNa2aqQX0fsXUJU_SRKebaTkD1MlaxV/view?usp=drive_link", "desc": "Complete research documentation on national history, galleries &amp; eco-tourism in Bukit Kepong." }
+  ],
+  "locations": [
+    { 
+      "id": "kedaikopi", 
+      "name": "Kedai Kopi AlSaeed", 
+      "niche": "Gastronomy", 
+      "mukim": "Mukim Bandar Muar", 
+      "pageImg": "passport-pages/page1.png", 
+      "lat": 2.0521, 
+      "lng": 102.5712, 
+      "stampImg": "stamps/kedaikopi.png", 
+      "address": "Jalan Ismail Bukit Treh, 84000, Muar, Johor", 
+      "hours": "Tuesday-Sunday (7:30 am - noon)", 
+      "phone": "014-235 5650", 
+      "info": "Nostalgic traditional coffee shop serving local breakfast favourites such as lontong kering, nasi lemak, Mee Jawa and satay [1]." 
+    },
+    { 
+      "id": "masjidjamek", 
+      "name": "Masjid Jamek Sultan Ibrahim", 
+      "niche": "Culture", 
+      "mukim": "Mukim Bandar Muar", 
+      "pageImg": "passport-pages/page2.png", 
+      "lat": 2.0465, 
+      "lng": 102.5601, 
+      "stampImg": "stamps/masjidjamek.png", 
+      "address": "18, Jalan Petri, Taman Sri Tanjung, Muar, Johor", 
+      "hours": "Open 24 Hours Daily", 
+      "phone": "011-5936 3632", 
+      "info": "Historic mosque featuring European classical, Islamic, and local architectural influences near the Muar River [2]." 
+    },
+    { 
+      "id": "lamanbakau", 
+      "name": "Laman Bakau Parit Kassim", 
+      "niche": "Eco-Tourism", 
+      "mukim": "Mukim Parit Jawa", 
+      "pageImg": "passport-pages/page3.png", 
+      "lat": 1.9582, 
+      "lng": 102.6391, 
+      "stampImg": "stamps/lamanbakau.png", 
+      "address": "51, Jalan Permai, Parit Jawa, Johor", 
+      "hours": "Mon-Thu (8:00 am-4:00 pm), Fri (8:00 am-12:15 pm &amp; 2:45 pm-4:00 pm)", 
+      "phone": "017-746 3880", 
+      "info": "Ecotourism destination offering visitors an opportunity to explore the mangrove ecosystem [2]." 
+    },
+    { 
+     "id": "nasuhaherbs", 
+     "name": "Nasuha Herbs &amp; Spice Farm", 
+     "niche": "Agrotourism", 
+     "mukim": "Mukim Sungai Terap", 
+     "pageImg": "passport-pages/page3.png", 
+     "lat": 2.1481, 
+     "lng": 102.7210, 
+     "stampImg": "stamps/nasuhaherbs.png",
+     "address": "19, Jalan Muar-Pagoh, 84500, Muar, Johor", 
+     "hours": "Wednesday-Monday (10:30 am - 5:00 pm)", 
+     "phone": "018-768 1000", 
+     "info": "Asia's largest herbal and spice plantation, offering agro-tourism, educational tours and a wide range of herbal products in Pagoh, Johor." 
+    }
+  ]
+}
